@@ -395,8 +395,8 @@ main {
     font-size: 2rem;
     color: var(--clr-black);
 }
-.live {
-
+.live:hover {
+    border-bottom: 2px solid var(--clr-green);
 }
 .live a {
     text-decoration: none;
