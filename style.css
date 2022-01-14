@@ -124,8 +124,12 @@ main {
 ===============*/
 #hero {
     padding: 8rem 0 2rem 0;
-    background: url(images/pexels-sami-aksu-10003543.jpg);
+    background: url(images/hero_bg.jpg);
+    background-position: unset;
     color: var(--clr-white);
+}
+#bg-image {
+    
 }
 .hero-intro {
     text-align: center;
@@ -160,7 +164,7 @@ main {
     font-size: 32px;
 }
 .social:hover {
-    background-color: var(--clr-orange);
+    background-color: var(--clr-green);
     padding: 0 20px;
     transition: var(--transition);
 }
@@ -397,6 +401,7 @@ main {
 }
 .live:hover {
     border-bottom: 2px solid var(--clr-green);
+    transition: var(--transition);
 }
 .live a {
     text-decoration: none;
